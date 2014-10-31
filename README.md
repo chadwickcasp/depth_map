@@ -17,6 +17,5 @@ it writes that distance into a pixel of the depth map corresponding to the cente
 
 The make_qtree module creates a quadtree to store the depth map values. This quadtree mapping assumes that the depth
 map is square, so it only covers that special case.  It scans the depth map looking for square sections of the same
-pixel values. It then stores the whole square section as a node, noting the dimensions, location of the square section,
-and pixel value within the section. This is convenient for depth maps because they tend to have many homogeneous sections.
+pixel values. It then stores the whole homogeneous square section as a node, noting the dimensions, location of the square section, and pixel value within the section. This is convenient for depth maps because they tend to have many homogeneous sections.
 
