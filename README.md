@@ -1,7 +1,7 @@
 depth_map
 =========
 
-A program simulating depth percetion on a computer
+A program simulating depth perception on a computer
 
 ###### Programs I worked on:
 
