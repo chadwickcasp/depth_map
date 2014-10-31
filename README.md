@@ -10,7 +10,8 @@ A program simulating depth perception on a computer
 This module takes in two 8-bit stereoimages (one from the left, the other from the right) and outputs a depth map. 
 It works by iterating through both images and matching similar features. After successfully matching the features, 
 the algorithm takes the square euclidean distance between the pixel locations of the left and right images. Then, 
-it writes that distance into a pixel of the depth map corresponding to the center of the feature.
+it writes that distance into a pixel of the depth map corresponding to the center of the feature in the left image
+(the left image is arbitrarily taken as the single source of truth).
 
 ##### make_qtree.c:
 
